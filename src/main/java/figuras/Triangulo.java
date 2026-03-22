@@ -41,39 +41,56 @@ public class Triangulo extends Figura {
         this.lado3 = lado3;
     }
 
-    /** @return lado 1 */
+    /**
+     * Devuelve el valor del lado 1.
+     * @return lado 1
+     */
     public double getLado1() {
         return lado1;
     }
 
-    /** @return lado 2 */
+    /**
+     * Devuelve el valor del lado 2.
+     * @return lado 2
+     */
     public double getLado2() {
         return lado2;
     }
 
-    /** @return lado 3 */
+    /**
+     * Devuelve el valor del lado 3.
+     * @return lado 3
+     */
     public double getLado3() {
         return lado3;
     }
 
-    /** @param lado1 nuevo valor del lado 1 */
+    /**
+     * Modifica el valor del lado 1.
+     * @param lado1 nuevo valor del lado 1
+     */
     public void setLado1(double lado1) {
         this.lado1 = lado1;
     }
 
-    /** @param lado2 nuevo valor del lado 2 */
+    /**
+     * Modifica el valor del lado 2.
+     * @param lado2 nuevo valor del lado 2
+     */
     public void setLado2(double lado2) {
         this.lado2 = lado2;
     }
 
-    /** @param lado3 nuevo valor del lado 3 */
+    /**
+     * Modifica el valor del lado 3.
+     * @param lado3 nuevo valor del lado 3
+     */
     public void setLado3(double lado3) {
         this.lado3 = lado3;
     }
 
     /**
      * Calcula el perímetro del triángulo.
-     * 
      * @return suma de los tres lados
      */
     @Override

@@ -35,32 +35,40 @@ public class Rectangulo extends Figura {
         this.altura = altura;
     }
 
-    /** @return base del rectángulo */
+    /**
+     * Devuelve la base del rectángulo.
+     * @return base del rectángulo
+     */
     public double getBase() {
         return base;
     }
 
-    /** @return altura del rectángulo */
+    /**
+     * Devuelve la altura del rectángulo.
+     * @return altura del rectángulo
+     */
     public double getAltura() {
         return altura;
     }
 
-    /** @param base nueva base */
+    /**
+     * Modifica la base del rectángulo.
+     * @param base nueva base
+     */
     public void setBase(double base) {
         this.base = base;
     }
 
-    /** @param altura nueva altura */
+    /**
+     * Modifica la altura del rectángulo.
+     * @param altura nueva altura
+     */
     public void setAltura(double altura) {
         this.altura = altura;
     }
 
     /**
      * Calcula el perímetro del rectángulo.
-     * <pre>
-     * perímetro = 2 * base + 2 * altura
-     * </pre>
-     * 
      * @return perímetro del rectángulo
      */
     @Override
@@ -70,10 +78,6 @@ public class Rectangulo extends Figura {
 
     /**
      * Calcula el área del rectángulo.
-     * <pre>
-     * área = base * altura
-     * </pre>
-     * 
      * @return área del rectángulo
      */
     @Override
